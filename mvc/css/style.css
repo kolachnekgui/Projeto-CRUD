@@ -1,0 +1,119 @@
+body {
+    background-color: gainsboro;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: midnightblue;
+    border: none;
+    
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+button {
+    background-color: midnightblue;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.menu {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.menu a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: white;
+    color: black;
+}
+
+.conteudo {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.conteudo h2 {
+    text-align: center;
+}
+
+.jogo {
+    width: 30%;
+    float: left;
+    margin: 0 2.5% 2.5% 0;
+}
+
+.jogo img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.jogo h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.jogo p {
+    text-align: center;
+}
+nav {
+    background-color: midnightblue;
+    border-bottom: 1px solid #ccc;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav .active {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #ccc;
+}
+
+
+
+
